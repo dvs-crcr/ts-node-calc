@@ -1,0 +1,28 @@
+{
+  "name": "ts-node-calc",
+  "version": "1.0.0",
+  "description": "Simple nodejs console calculator",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "RUN TESTS"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvs-crcr/ts-node-calc.git"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "calc"
+  ],
+  "author": "dvs <dvs@crcr.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dvs-crcr/ts-node-calc/issues"
+  },
+  "homepage": "https://github.com/dvs-crcr/ts-node-calc#readme",
+  "dependencies": {
+    "@types/node": "^14.14.21"
+  }
+}
