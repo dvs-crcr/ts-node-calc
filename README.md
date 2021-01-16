@@ -1,8 +1,9 @@
 # ts-node-calc
 >Консольный калькулятор на Node.js
 
-## Запуск приложения
+## Установка и запуск калькулятора
 ```bash
+$ git clone https://github.com/dvs-crcr/ts-node-calc.git && cd ts-node-calc && npm install
 $ npm start
 ```
 
@@ -20,10 +21,13 @@ $ npm test
 * Минимальное кол-во комментариев в коде
 
 ## Пример консольного ввода
-```
-$ Введите выражение: 1+2-3
-$ Результат: 0
+```bash
+$ npm start
+
+Введите выражение: 1+2-3
+Результат: 0
 ```
 
 ## License
 [MIT](LICENSE)
+
